@@ -13,7 +13,7 @@ article {
     width: 100%;   
 }
 
-article h3, h4{
+article h3, h4, h5{
     display: flex;
     justify-content: center;
     background-color:rgb(216, 166, 130);
