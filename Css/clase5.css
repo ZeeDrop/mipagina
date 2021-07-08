@@ -147,7 +147,7 @@ footer {
     text-align: center;
     width: 100%;
 }
-.mapa, .hoya, .cartel, .ubicacion, .trochita{
+.mapa, .hoya, .cartel, .ubicacion, .trochita, .parque, .parqueu{
     display: flex;
     justify-content: center;
 }
