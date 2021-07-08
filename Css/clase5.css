@@ -1,0 +1,157 @@
+body {
+    background-image: url(../img/fondo\ liso.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    width: 100%;
+}
+
+article {
+    width: 100%;   
+}
+
+article h3, h4{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(216, 166, 130);
+    padding: 20px;
+    border-radius: 20px;
+    border-style: double;
+    margin: 20px 60px 20px;
+}
+
+article img {
+    width: 60%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+aside {
+    right: 0;
+    float: right;
+    margin-top: 20px;
+    display: block;
+    border-top: black;
+}
+
+nav {
+    background-color: rgb(211, 149, 104);
+    padding-left: 20px;
+}
+
+.lista-de-menu {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.link-de-menu {
+    text-decoration: none;
+    color: black;
+}
+
+.item-de-menu {
+    display: inline-block;
+    padding: 20px;
+}
+
+.item-de-menu:hover {
+    background-color: chocolate;
+}
+
+.item-de-menu:active {
+    padding: 16px;
+    border: 5px outset chocolate;
+}
+
+.lista-de-asside {
+    list-style: none;
+}
+
+.link-de-asside {
+    text-decoration: none;
+    color: black;
+}
+
+.item-de-asside {
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: 'Work Sans', sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    line-height: 50px;
+    font-size: 25px;
+    border-style: double;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.px-2 {
+    padding-left: (.5) !important;
+    padding-right: (.5) !important;
+}
+
+h1 {
+    font-family: 'Arimo', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+h2 {
+    font-family: 'Arimo', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+h3 {
+    font-family: 'Arimo', sans-serif;
+    padding-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-family: 'Arimo', sans-serif;
+    padding-left: 30px;
+    margin-top: 50px;
+}
+
+h5 {
+    font-family: 'Work Sans', sans-serif;
+    padding-left: 30px;
+}
+
+li {
+    font-family: 'Work Sans', sans-serif;
+    padding-right: 250px;
+    padding-left: 30px;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+footer {
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+.mapa, .hoya, .cartel, .ubicacion, .trochita{
+    display: flex;
+    justify-content: center;
+}
+
+.esqui{
+    margin: 25px 25px 0;
+}
